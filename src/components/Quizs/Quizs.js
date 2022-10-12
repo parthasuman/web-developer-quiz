@@ -8,9 +8,6 @@ const Quizs = () => {
   const { id } = mainAnswers;
 
   const mainQuestions = mainAnswers.questions;
-  // console.log(mainQuestions);
-  // const correctAnswers = mainAnswers.correctAnswers;
-  // console.log(correctAnswers);
 
   return (
     <div className="text-center  m-8 border-solid border-2 border-indigo-600">
