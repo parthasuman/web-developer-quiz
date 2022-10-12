@@ -41,7 +41,6 @@ function App() {
         {
           path: "/topics/:topicId",
           loader: async ({ params }) => {
-            // console.log(params.topicsId);
             return fetch(
               `https://openapi.programming-hero.com/api/quiz/${params.topicId}`
             );
