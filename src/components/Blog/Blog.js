@@ -2,8 +2,8 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div class="accordion" id="accordionExample">
-      <div class="accordion-item bg-white border border-gray-200">
+    <div class="accordion m-8" id="accordionExample">
+      <div class="accordion-item bg-white border border-gray-200 ">
         <h2 class="accordion-header mb-0" id="headingOne">
           <button
             class="
@@ -123,8 +123,8 @@ const Blog = () => {
         >
           <div class="accordion-body py-4 px-5">
             useRef returns a mutable ref object whose .current property is
-            initialized to the passed argument (initialValue). The returned
-            object will persist for the full lifetime of the component.
+            initialized to the passed argument initialValue. The returned object
+            will persist for the full lifetime of the component.
           </div>
         </div>
       </div>
