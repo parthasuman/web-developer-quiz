@@ -2,7 +2,7 @@ import React from "react";
 import { toast } from "react-toastify";
 
 const OptionForAll = ({ allOption, correctAnswer }) => {
-  console.log(correctAnswer);
+  // console.log(correctAnswer);
 
   const correctHandeler = () => {
     correctAnswer === allOption
