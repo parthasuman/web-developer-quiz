@@ -5,10 +5,6 @@ import { BarChart, Bar, XAxis, YAxis, Tooltip } from "recharts";
 const Statistics = () => {
   const [totals, setTotal] = useState([]);
   useEffect(() => {
-    // fetch('https://openapi.programming-hero.com/api/quiz')
-    // .then(res => res.json())
-    // .then(data => {})
-
     axios.get("https://openapi.programming-hero.com/api/quiz").then((data) => {
       const courseName = data.data.data;
       const courseData = courseName.map((course) => {
