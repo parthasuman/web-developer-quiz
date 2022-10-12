@@ -3,13 +3,10 @@ import React from "react";
 import OptionForAll from "../OptionForAll/OptionForAll";
 
 const Questions = ({ mainQuestion }) => {
-  // console.log(mainQuestion);
-
   const allOptions = mainQuestion.options;
-  // console.log(allOptions);
 
   // console.log(questions);
-  const rightAnswer = mainQuestion.correctAnswer;
+  // const rightAnswer = mainQuestion.correctAnswer;
 
   return (
     <div className=" m-8 border-solid border-2 border-indigo-600">

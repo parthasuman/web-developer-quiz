@@ -6,7 +6,7 @@ import ErrorPage from "./components/ErrorPage/ErrorPage";
 import Home from "./components/Home/Home";
 import Quizs from "./components/Quizs/Quizs";
 import Statistics from "./components/Statistics/Statistics";
-import Topics from "./components/Topics/Topics";
+
 import Main from "./layouts/Main";
 
 function App() {
